@@ -1,0 +1,103 @@
+/* html {
+    font-size: 20px;
+  } */
+  body{
+      height: auto;
+	  width:70%;
+	  background-color:white;
+	  size:auto;
+  }
+  .navbar{
+      background-color:pink;
+      height:67px;
+  }  
+  .logo{
+      padding:5px;
+      font-size:20px;
+  }
+  .nav-item{  
+      float:right;    
+      position: relative;
+      right:40rem;     
+      bottom: 10px;       
+  }
+  .nav-item >li > a{
+      text-decoration: none;
+      font-size:22px;
+  }
+  .item{
+      display: inline-block;
+      padding:5px;
+      
+  }
+  .item>a{
+      color:white;
+  }
+  .top-image{
+      width:100%;
+  }
+.desc1{
+	width:480px;
+	height:1rem;
+	margin-top:3rem;
+}
+.disc2{
+	width:150px;
+	margin-top:7rem;
+
+}
+
+	.desc3{ position:center;
+}
+.footer{
+    background-color: grey;
+    height:70px;
+    text-align: center;
+    position: relative;
+    bottom: 13rem;
+     
+}
+
+.side-item{
+	width:300px;
+	background-color: pink;
+	height:60px;
+	margin:5px;
+	display: block;
+	line-height: 60px
+}
+.side-item-text{
+	padding:20px;
+	color: white;
+	font-size:1.5rem;
+}
+.footer{
+	bottom:20px;
+	width:90%;
+	color:white;
+	background-color:black;
+	margin:1rem;
+	
+	
+}
+
+.foot-content{
+    text-align: center;
+    padding: 1.5rem;
+	margin-top:7rem;
+	
+}
+.side-menu{
+	width:20%
+}
+.content{
+	position: relative;
+	left:25rem;
+	bottom:11rem;
+}
+tr{
+	height:4rem;
+}
+ th{
+	 width:150px;
+ }
