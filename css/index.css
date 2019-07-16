@@ -9,23 +9,25 @@ body {
 .navbar {
   background-color: pink;
   height: 67px;
+  line-height: 50px
 }
 
 .logo {
-  padding: 5px;
-  font-size: 20px;
+  margin-top: 10px
 }
 
 .nav-item {
   float: right;
-  position: relative;
+  /* position: relative; */
   right: 1rem;
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 .nav-item>li>a {
   text-decoration: none;
   font-size: 22px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .item {
@@ -105,10 +107,10 @@ body {
 
 .content {
   position: relative;
-  left: 40em;
+  left: 30em;
 
   bottom: 11rem;
-  width: 41%;
+  width: px;
 }
 
 .footer {
@@ -133,6 +135,8 @@ body {
   position: relative;
   bottom: 4rem;
 
+  
+
 }
 
 .form-input {
@@ -156,7 +160,7 @@ textarea {
 }
 
 input {
-  width: 480px;
+  width: 700px;
 }
 
 .form-input>input[type="text"] {
