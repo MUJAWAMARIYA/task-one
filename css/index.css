@@ -4,6 +4,10 @@
 */
 body {
   height: 100vh;
+  position: absolute;
+  width: 80%;
+  left : 10%;
+  right : 10%;
 }
 
 .navbar {
@@ -107,10 +111,10 @@ body {
 
 .content {
   position: relative;
-  left: 30em;
+  left: 28em;
 
   bottom: 11rem;
-  width: px;
+  width: 480px;
 }
 
 .footer {
@@ -150,21 +154,35 @@ body {
   font-size: 22px;
 }
 
-td {
-  padding: 5px;
-  font-size: 30px;
-}
+
 
 textarea {
   width: 480px;
 }
 
-input {
-  width: 700px;
+
+/* .inputs {
+
+  width :7rem;
+  font-size: 30px;
+  height:150px;
+  margin:0;
+
+} */
+th{
+  width: 150px;
+  height: 5rem;
+  font-size:  1.9rem;
 }
 
-.form-input>input[type="text"] {
-  margin-left: 1.6rem;
+input[type="text"] ,textarea{
+  width: 480px;
+
+}
+
+input[type="text"] ,input[type="radio"],textarea
+ {
+  margin-left: 1.3rem;
 }
 
 .mess {
